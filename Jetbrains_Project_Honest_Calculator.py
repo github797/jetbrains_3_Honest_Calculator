@@ -50,6 +50,7 @@ while True:
             print(result)
         else:
             print(msg_[2])
+            continue
 
     except ValueError:
         print(msg_[1])
