@@ -38,9 +38,9 @@ def check(v1, v2, v3):
 
 while True:
     calc = input('{}\n'.format(msg_[0]))
-    x, oper, y = calc.split()
 
     try:
+        x, oper, y = calc.split()
         x = memory if x == 'M' else float(x)
         y = memory if y == 'M' else float(y)
 
